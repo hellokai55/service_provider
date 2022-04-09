@@ -1,0 +1,29 @@
+targets:
+  $default:
+    builders:
+      service_finder:
+        enabled: true
+        generate_for:
+          exclude: ['**.service.find.dart']
+      service_provider:
+        enabled: true
+        generate_for:
+          exclude: ['**.service.dart']
+
+builders:
+  ### 服务提供者生成
+  service_provider:
+    import: "package:service_provider/builder.dart"
+    builder_factories: ['serviceProvider']
+    build_extensions: {'.dart': ['.service.dart']}
+    auto_apply: all_packages
+    build_to: source
+
+  ### 服务发现
+  service_finder:
+    import: "package:service_provider/builder.dart"
+    builder_factories: ['serviceFinder']
+    build_extensions: {'.dart': ['.service.find.dart']}
+    auto_apply: all_packages
+    runs_before: ['service_provider']
+    build_to: source
