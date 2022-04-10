@@ -138,7 +138,7 @@ class ServiceProviderInternal {
 那我作为业务方怎么用呢？
 
 #### 3.1 别人写好了我直接用
-直接使用使用ServiceProvider.getService<ILoginService>()来获取实例并调用方法即可，ILoginService换成需要的接口
+直接使用使用`ServiceProvider.getService<ILoginService>()`来获取实例并调用方法即可，ILoginService换成需要的接口
 
 #### 3.2 别人没写我自己创建
 1. 创建服务接口类`ILoginService`，实现自`IService`

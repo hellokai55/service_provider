@@ -23,7 +23,7 @@ class ServiceAnnotationHelper {
 
   ServiceAnnotationHelper._internal() {
     allImportSet.add(Directive.import(
-        'package:service_provider/interface/service_interface.dart'));
+        'package:service_provider_dart/interface/service_interface.dart'));
   }
 
   Future<void> collect(
