@@ -1,6 +1,6 @@
 name: service_provider_dart
 description: flutter service provider like java spi
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/hellokai55/service_provider
 
 environment:
