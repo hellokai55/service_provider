@@ -13,7 +13,7 @@ targets:
 builders:
   ### 服务提供者生成
   service_provider:
-    import: "package:service_provider/builder.dart"
+    import: "package:service_provider_dart/builder.dart"
     builder_factories: ['serviceProvider']
     build_extensions: {'.dart': ['.service.dart']}
     auto_apply: all_packages
@@ -21,7 +21,7 @@ builders:
 
   ### 服务发现
   service_finder:
-    import: "package:service_provider/builder.dart"
+    import: "package:service_provider_dart/builder.dart"
     builder_factories: ['serviceFinder']
     build_extensions: {'.dart': ['.service.find.dart']}
     auto_apply: all_packages
