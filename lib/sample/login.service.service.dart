@@ -1,5 +1,6 @@
 
-import 'package:service_provider/interface/service_annotation.dart';
+
+import 'package:service_provider_dart/interface/service_annotation.dart';
 
 import 'login_service.service.find.dart';
 

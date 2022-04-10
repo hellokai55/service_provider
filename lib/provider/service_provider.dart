@@ -1,5 +1,5 @@
-import 'package:service_provider/interface/service_annotation.dart';
-import 'package:service_provider/interface/service_interface.dart';
+import 'package:service_provider_dart/interface/service_annotation.dart';
+import 'package:service_provider_dart/interface/service_interface.dart';
 
 import 'service_provider.service.dart';
 

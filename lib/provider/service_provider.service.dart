@@ -4,7 +4,7 @@
 // Generator: ServiceProvider
 // **************************************************************************
 
-import 'package:service_provider/interface/service_interface.dart';
+import 'package:service_provider_dart/interface/service_interface.dart';
 import 'package:service_provider_sample/sample/login.service.service.dart';
 import 'package:service_provider_sample/sample/login_service.service.find.dart';
 
