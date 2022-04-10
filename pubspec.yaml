@@ -37,8 +37,7 @@ dependencies:
   source_gen: ^1.2.1
   code_builder: ^4.1.0
   build_runner: ^2.1.8
-  service_provider_dart:
-    path: service_provider_dart
+  service_provider_dart: ^1.0.2
   
   #service_provider:
   #  path: service_provider

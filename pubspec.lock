@@ -336,10 +336,10 @@ packages:
   service_provider_dart:
     dependency: "direct main"
     description:
-      path: service_provider_dart
-      relative: true
-    source: path
-    version: "1.0.1"
+      name: service_provider_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   shelf:
     dependency: transitive
     description:
